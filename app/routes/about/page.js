@@ -1,19 +1,14 @@
+import AboutSection from "@/components/FrontendComponenets/aboutPage/aboutPage";
 import Navbar from "@/components/FrontendComponenets/navbar";
-import Products from "@/components/FrontendComponenets/homePage/productPage";
 import Footer from "@/components/footer";
 
-
-
-export default function Home() {
+  
+export default function About() {
   return (
     <>
       <Navbar />
-      <Products />
+      <AboutSection />
       <Footer />
     </>
   );
 }
-
-
-
-
